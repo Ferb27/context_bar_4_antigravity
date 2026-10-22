@@ -1,0 +1,10 @@
+{
+  "name": "show-context",
+  "displayName": "Show Context",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": { "vscode": "^1.90.0" },
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": { "commands": [{ "command": "showContext.refresh", "title": "Show Context: Refresh" }] }
+}

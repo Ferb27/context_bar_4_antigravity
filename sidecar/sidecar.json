@@ -1,0 +1,7 @@
+{
+  "command": "node",
+  "args": ["inject.mjs"],
+  "restart_policy": "always",
+  "display_name": "Show Context",
+  "description": "Shows context token usage next to the chat composer while Antigravity is running."
+}
