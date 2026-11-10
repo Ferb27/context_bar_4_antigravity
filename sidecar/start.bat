@@ -1,3 +1,3 @@
 @echo off
 cd /d "%~dp0"
-node inject.mjs
+node --no-warnings inject.mjs
